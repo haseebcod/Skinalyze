@@ -39,7 +39,7 @@ def get_response(prompt):
 
 # streamlit app
 
-st.set_page_config(page_title='Skinalyze')
+st.set_page_config(page_title='Skinalyze', icon='skinalyze-logo.png')
 st.title('Skinalyze')
 st.subheader('Skin Lesion detection')
 
