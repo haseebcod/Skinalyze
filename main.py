@@ -50,7 +50,7 @@ st.subheader('Skin Lesion detection')
 def load_model(model_path):
   model = tf.keras.models.load_model(model_path)
   return model
-model = load_model('skinNet.h5')
+model = load_model('SkinNet-23M.h5')
 
 API_KEY = st.secrets["COHERE_API_KEY"]
 
