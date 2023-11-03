@@ -57,7 +57,9 @@ API_KEY = st.secrets["COHERE_API_KEY"]
 # connect to cohere API
 co = cohere.Client(API_KEY)
 
-image = st.file_uploader("Upload image")
+image = st.file_uploader("Upload image",
+                         type=['.jpg', '.jpeg', '.png'],
+                         )
 case = ""
 case_paragraph = 'Upload an image for the region of lesion'
 
