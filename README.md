@@ -27,7 +27,7 @@ pip install -r requirements.txt
 Add your cohere API key to secrets file:
 ```
 mkdir .streamlit
-echo "COHERE_API_KEY = "Your Actual API key"" > .streamlit/secrets.toml
+echo 'COHERE_API_KEY = "Your Actual API key"' > .streamlit/secrets.toml
 ```
 
 run the streamlit app:
