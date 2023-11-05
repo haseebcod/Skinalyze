@@ -24,6 +24,11 @@ install dependencies via pip:
 ```bash
 pip install -r requirements.txt
 ```
+Add your cohere API key to secrets file:
+```
+mkdir .streamlit
+echo "COHERE_API_KEY = "Your Actual API key""
+```
 
 run the streamlit app:
 
