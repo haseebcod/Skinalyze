@@ -52,7 +52,7 @@ def load_model(model_path):
   return model
 model = load_model('SkinNet-23M.h5')
 
-API_KEY = st.secrets["COHERE_API_KEY"]
+API_KEY = st.secrets["EMPTdvy1ixZoYjjWx36EXaeqPhmsBmNO5CKyy4vA"]
 
 # connect to cohere API
 co = cohere.Client(API_KEY)
