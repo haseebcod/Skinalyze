@@ -4,7 +4,7 @@
 Skin lesion detection app, based on CNN model trained on MSLD v2.0 dataset for detecting: Monkeypox, Chickenpox, Cowpox, HFMD, Measles and healthy.
 
 ## Live demo
-Test it out [here](https://skinalyze.streamlit.app)
+Test it out [here](https://skinalyze-project.streamlit.app/)
 
 ## Dependencies 
 
